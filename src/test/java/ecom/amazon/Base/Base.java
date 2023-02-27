@@ -13,6 +13,7 @@ public class Base {
 	@BeforeClass
 	public void setUp() {
 		driver = new ChromeDriver();
+		driver.manage().window().maximize();
 	}
 	
 	@AfterClass

@@ -26,7 +26,7 @@ public class HomePage {
 //	@FindBy(xpath = "")
 //	WebElement ;
 	
-	public Boolean isVisible() {
+	public boolean isVisibleAmazonIcon() {
 		if (amazonIcon.isDisplayed()) {
 			return true;
 		} else {
