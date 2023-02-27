@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-27T16:39:48 IST" name="Default suite" finished-at="2023-02-27T16:40:06 IST" duration-ms="18350">
+  <suite started-at="2023-02-27T18:06:49 IST" name="Default suite" finished-at="2023-02-27T18:07:34 IST" duration-ms="45048">
     <groups>
     </groups>
-    <test started-at="2023-02-27T16:39:48 IST" name="Default test" finished-at="2023-02-27T16:40:06 IST" duration-ms="18350">
+    <test started-at="2023-02-27T18:06:49 IST" name="Default test" finished-at="2023-02-27T18:07:34 IST" duration-ms="45048">
       <class name="ecom.amazon.Base.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:ecom.amazon.Base.HomePageTest@4b29d1d2]" started-at="2023-02-27T16:39:48 IST" name="setUp" finished-at="2023-02-27T16:39:54 IST" duration-ms="5510" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ecom.amazon.Base.HomePageTest@4b29d1d2]" started-at="2023-02-27T18:06:49 IST" name="setUp" finished-at="2023-02-27T18:07:11 IST" duration-ms="21419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homePageTest()[pri:0, instance:ecom.amazon.Base.HomePageTest@4b29d1d2]" started-at="2023-02-27T16:39:54 IST" name="homePageTest" finished-at="2023-02-27T16:40:05 IST" duration-ms="11091" status="PASS">
+        <test-method signature="homePageTest()[pri:0, instance:ecom.amazon.Base.HomePageTest@4b29d1d2]" started-at="2023-02-27T18:07:11 IST" name="homePageTest" finished-at="2023-02-27T18:07:31 IST" duration-ms="20727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.amazon.Base.HomePageTest@4b29d1d2]" started-at="2023-02-27T16:40:05 IST" name="tearDown" finished-at="2023-02-27T16:40:06 IST" duration-ms="1699" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ecom.amazon.Base.HomePageTest@4b29d1d2]" started-at="2023-02-27T18:07:31 IST" name="tearDown" finished-at="2023-02-27T18:07:34 IST" duration-ms="2652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

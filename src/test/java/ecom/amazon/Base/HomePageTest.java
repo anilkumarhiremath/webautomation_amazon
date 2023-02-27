@@ -1,7 +1,6 @@
 package ecom.amazon.Base;
 
 import org.testng.annotations.Test;
-
 import ecom.amazon.pageObject.HomePage;
 import ecom.amazon.utilities.Utilities;
 
@@ -13,7 +12,7 @@ public class HomePageTest extends Base {
 		
 		HomePage hPage = new HomePage(driver);
 		Utilities uts = new Utilities();
-		boolean check = hPage.isVisibleAmazonIcon();
+		boolean check = uts.isElementVisible(hPage.amazonIcon);
 		try {
 			Thread.sleep(5000);
 		} catch (InterruptedException e) {

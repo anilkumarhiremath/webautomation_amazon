@@ -8,20 +8,31 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class Utilities {
-	
+
+	 
 	public void takeScreenShot(WebDriver driver) {
-		File screenShot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		
+		File screenShot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
 		Random random = new Random();
-		
+
 		try {
-			FileUtils.copyFile(screenShot, new File("C:\\Users\\102612\\eclipse-workspace\\functional.demotest\\Screenshots\\"+random.nextInt()+".png"));
+			FileUtils.copyFile(screenShot,
+					new File("C:\\Users\\102612\\eclipse-workspace\\functional.demotest\\Screenshots\\"
+							+ random.nextInt() + ".png"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
 	
+	public boolean isElementVisible(WebElement element) {
+		if (element.isDisplayed()) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
