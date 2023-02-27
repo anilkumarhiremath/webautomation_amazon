@@ -15,22 +15,23 @@ public class HomePage {
 	}
 	
 	@FindBy(xpath = "//div[@id='nav-logo']")
-	WebElement amazonIcon;
+	public WebElement amazonIcon;
 	
 	@FindBy(xpath = "//input[@id='twotabsearchtextbox']")
-	WebElement searchBox;
+	public WebElement searchBox;
 	
 	@FindBy(xpath = "//input[@id='nav-search-submit-button']")
-	WebElement searchIcon;
+	public WebElement searchIcon;
+	
 	
 //	@FindBy(xpath = "")
 //	WebElement ;
 	
-	public boolean isVisibleAmazonIcon() {
-		if (amazonIcon.isDisplayed()) {
-			return true;
-		} else {
-			return false;
-		}
-	}
+//	public boolean isVisibleAmazonIcon(WebElement e) {
+//		if (e.isDisplayed()) {
+//			return true;
+//		} else {
+//			return false;
+//		}
+//	}
 }
