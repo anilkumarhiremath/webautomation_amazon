@@ -8,11 +8,26 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">45,048</td><td></td><td></td></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">10,080</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">ecom.amazon.Base.HomePageTest</td><td><a href="#m0">homePageTest</a></td><td rowspan="1">1677501431230</td><td rowspan="1">20727</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ecom.amazon.testcases.HomePageTest</td><td><a href="#m0">TC_1_verify_amazon_icon</a></td><td rowspan="1">1677584954396</td><td rowspan="1">5018</td></tr><tr class="failedodd"><td rowspan="1">ecom.amazon.testcases.MobilePageTest</td><td><a href="#m1">TC_3_verify_delivery_day</a></td><td rowspan="1">1677584959423</td><td rowspan="1">5002</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">ecom.amazon.Base.HomePageTest#homePageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">ecom.amazon.testcases.HomePageTest#TC_1_verify_amazon_icon</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at ecom.amazon.utilities.Utilities.isElementVisible(Utilities.java:37)
+	at ecom.amazon.testcases.HomePageTest.TC_1_verify_amazon_icon(HomePageTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ecom.amazon.testcases.MobilePageTest#TC_3_verify_delivery_day</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy12.isDisplayed(Unknown Source)
+	at ecom.amazon.utilities.Utilities.isElementVisible(Utilities.java:37)
+	at ecom.amazon.testcases.MobilePageTest.TC_3_verify_delivery_day(MobilePageTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
